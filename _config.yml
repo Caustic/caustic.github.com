@@ -1,4 +1,4 @@
 auto: true
 pygments: true
-peralink: /posts/:title
+permalink: /posts/:title
 markdown: rdiscount
