@@ -1,4 +1,4 @@
 auto: true
 pygments: true
 permalink: /posts/:title
-markdown: redcarpet
+markdown: maruku
