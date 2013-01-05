@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<p>
 So I guess I'm going to try to start a blog again.  We'll see how this goes.
-</p>
 
-<h3> Posts </h3>
+### Posts
 
 <ul class="post-list">
   {% for post in site.posts %}
