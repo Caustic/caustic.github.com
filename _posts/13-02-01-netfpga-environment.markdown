@@ -18,7 +18,7 @@ title: Setting up NetFPGA Development Environment
 4. Install the NetFPGA Base package: `yum -y install netfpga-base`
 5. Install the [Java GUI](http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallJavaGUI20).
 6. Create a local user NetFPGA account by running the following command.  WARNING: Back up your data! `/usr/local/netfpga/lib/scripts/user_account_setup/user_account_setup.pl`
-    This creates some environment variables:
+This creates some environment variables:
 
         NF_ROOT
         NF_DESIGN_DIR
