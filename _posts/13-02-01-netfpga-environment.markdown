@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Setting up NetFPGA dev environment
+title: Setting up NetFPGA Development Environment
 ---
-
-## Configuring the NetFPGA development environment on Fedora
-
 ### Obtain Hardware
 
 1. Buy the NetFPGA
