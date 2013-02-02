@@ -33,8 +33,8 @@ This creates some environment variables:
 3. Plug in the NetFPGA and boot up!  If it crashes the first boot, reboot and it should work fine. //What?!
 4. add `uppermem 524288` and `vmalloc=256M` to `/boot/grub/grub.conf` and reboot. [Found here](http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware10) // Still necessary?
 
+####Sources:
 
-Sources:
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/ObtainHardwareAndSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/VerifyHardwareAndSoftware
