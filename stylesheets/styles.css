@@ -819,6 +819,9 @@ section #title .credits.left {
 section #title .credits.right {
   float: right;
 }
+section div.post-body {
+  margin-top: 20px;
+}
 
 @media print, screen and (max-width: 720px) {
   #title .credits {
