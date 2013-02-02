@@ -13,7 +13,7 @@ title: Setting up NetFPGA Development Environment
 2. Install the the [RPMforge](http://wiki.centos.org/AdditionalResources/Repositories/RPMForge) repsoitory. // Necessary for Fedora?
 3. Add the NetFPGA yum repository GPG Key:
 
-<pre><code>rpm -Uhv http://netfpga.org/yum/el5/RPMS/noarch/netfpga-repo-1-1_CentOS5.noarch.rpm</code></pre>
+    <pre><code>rpm -Uhv http://netfpga.org/yum/el5/RPMS/noarch/netfpga-repo-1-1_CentOS5.noarch.rpm</code></pre>
 
 4. Install the NetFPGA Base package: `yum -y install netfpga-base`
 5. Install the [Java GUI](http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallJavaGUI20).
