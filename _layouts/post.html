@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h3>{{ page.title }}</h3>
+<h2>{{ page.title }}</h2>
+{{ page.date | date: "%B %e, %Y"}}
 <section class="byline">
-  {{ page.date | date: "%B %e, %Y"}}
   {{ content }}
 </section>
