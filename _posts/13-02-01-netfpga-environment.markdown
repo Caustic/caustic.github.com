@@ -3,14 +3,14 @@ layout: post
 title: Setting up NetFPGA dev environment
 ---
 
-# Configuring the NetFPGA development environment on Fedora
+## Configuring the NetFPGA development environment on Fedora
 
-## Obtain Hardware
+### Obtain Hardware
 
 1. Buy the NetFPGA
 2. Obtain a PC to use as the host Machine
 
-## Obtain/Install Software
+### Obtain/Install Software
 
 1. Install Fedora or other rpm based distro.
 2. Install the the [RPMforge](http://wiki.centos.org/AdditionalResources/Repositories/RPMForge) repsoitory. // Necessary for Fedora?
@@ -30,7 +30,7 @@ This creates some environment variables:
     PYTHONPATH
     PERL5LIB
 
-## Install from git
+### Install from git
 
 1. `git clone git@github.com:Caustic/netfpga.git`
 2. You'll need some bitfiles from [the netfpga wiki](http://wiki.netfpga.org/foswiki/NetFPGA/OneGig/Releases) Copy the `cpci*.bit` bitfiles from the tgz release. just copy all bitfiles from their bitfile directory into your ~/netfpga/bitfiles.
