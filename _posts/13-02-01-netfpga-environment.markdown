@@ -48,7 +48,7 @@ http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/VerifyHardwareAndSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware10
 
-### Issues I had (Fedora 17 vanilla install):
+### Issues I had and how I fixed them (Fedora 17 vanilla install):
 
     # Error
     Can't locate XML/Simple.pm in @INC
@@ -66,3 +66,7 @@ http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware10
     fatal error: libnet.h: No such file or directory
     $ sudo yum install libnet-devel
 
+### TODO:
+
+1. Run Selftests
+2. Run Regression Tests
