@@ -13,7 +13,7 @@ stuff
 1. `git clone git@github.com:Caustic/netfpga.git`
 2. You'll need some bitfiles from [the netfpga wiki](http://wiki.netfpga.org/foswiki/NetFPGA/OneGig/Releases) Copy the `cpci*.bit` bitfiles from the tgz release. Just copy all bitfiles from their bitfile directory into your ~/netfpga/bitfiles.
 3. Plug in the NetFPGA and boot up!
-4. Add `vmalloc=256M` to `/boot/grub/grub.conf` or edit `/etc/default/grub` and run `grub2-mkconfig`. [Found here](http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware10). Failing to complete this step will result in the NetFPGA interfaces not getting initialized.
+4. Add `vmalloc=256M` to `/boot/grub/grub.conf` or edit `/etc/default/grub` and run `grub2-mkconfig`. Failing to complete this step will result in the NetFPGA interfaces not getting initialized.
 5. Add the necessary NF\_ Environment variables: `source bashrc_addon.sh`
 6. Create simlinks for system binaries.
     <pre><code>
@@ -46,6 +46,7 @@ stuff
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/ObtainHardwareAndSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/VerifyHardwareAndSoftware
+http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware10
 
 ### Issues I had (Fedora 17 vanilla install):
 
