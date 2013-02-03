@@ -56,6 +56,7 @@ This creates some environment variables:
     <pre><code>/usr/local/netfpga/lib/scripts/cpci_reprogram.pl
     /usr/local/bin/nf_download /usr/local/netpfga/reference_nic.bit
     ifconfig nf2c[0-3] 10.0.1[0-3].1/24 for the 4 ports
+    </code></pre>
 
 10. Note: if you forget to run `cpci_reprogram` with root permissions, it will hang your card and you'll need to reboot and run the `loadregs.sh` command above.
 
