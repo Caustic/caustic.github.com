@@ -7,6 +7,7 @@ title: Setting up NetFPGA Development Environment
 1. Buy the NetFPGA
 
 stuff
+
 2. Obtain a PC to use as the host Machine
 
 ### Obtain/Install Software
