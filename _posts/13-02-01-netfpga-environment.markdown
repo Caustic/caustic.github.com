@@ -66,3 +66,23 @@ This creates some environment variables:
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/ObtainHardwareAndSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/InstallSoftware
 http://wiki.netfpga.org/foswiki/bin/view/NetFPGA/OneGig/VerifyHardwareAndSoftware
+
+
+### Issues I had (Fedora 17 vanilla install):
+
+    # Error
+    Can't locate XML/Simple.pm in @INC
+    $ sudo yum install cpan
+
+    # Error
+    Can't locate Switch.pm in @INC
+    # Copied Switch.pm from my ubuntu machine to the perl lib on fedora
+
+    # Error
+    /usr/bin/ld: cannot find -lncurses
+    $ sudo yum install ncurses-static
+
+    # Error
+    fatal error: libnet.h: No such file or directory
+    $ sudo yum install libnet-devel
+
