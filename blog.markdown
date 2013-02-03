@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm going to be using this blog to track my personal projects.  Less for the readers and more for myself to reference back to when I get stuck on something I've encountered before.  If you ended up here because you were having a similar issue, I hope you can find the help you need!  Cheers!
+I'm going to be using this blog to track my personal projects.  Less for the readers and more for me to reference back to when I get stuck on something I've encountered before.  If you ended up here because you were having a similar issue, I hope you can find the help you need!  Cheers!
 
 ### Posts
 
