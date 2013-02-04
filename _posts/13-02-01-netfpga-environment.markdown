@@ -36,7 +36,7 @@ stuff
     <pre><code>
     $ ~/netfpga/lib/scripts/cpci_config_reg_access/dumpregs.sh -f ~/defaultregs # for problem recovery
     $ ~/netfpga/lib/scripts/cpci_config_reg_access/loadregs.sh -f ~/defaultregs # do this if cpci_reprogram fails half way
-    $ sudo ~/netfpga/lib/scripts/cpci_reprogram.pl
+    $ sudo ~/netfpga/lib/scripts/cpci_reprogram/cpci_reprogram.pl
     $ sudo /usr/local/bin/nf_download /usr/local/netfpga/bitfiles/reference_nic.bit
     # ifconfig nf2c[0-3] 10.0.1[0-3].1/24 for the 4 ports
     </code></pre>
