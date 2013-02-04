@@ -26,7 +26,7 @@ git clone git://github.com/libopencm3/libopencm3.git
 (gdb) c
 </code></pre>
 
-And thats it!  I've got my program up and running on my STM32L board with hardly any effor at all!
+And thats it!  I've got my program up and running on my STM32L board with hardly any effort at all!
 
 ### Considerations and Sources:
 
