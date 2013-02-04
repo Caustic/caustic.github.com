@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="stylesheets/ie.css">
@@ -18,32 +18,33 @@
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="/">Home</a></li>
-          <li class="downloads"><a href="/blog">Blog</a></li>
-          <li class="downloads"><a href="https://github.com/Caustic">My GitHub</a></li>
-          <li class="title">Links</li>
-        </nav>
-      </div><!-- end header -->
+    <div id="header">
+      <nav>
+      <li class="fork"><a href="/">Home</a></li>
+      <li class="downloads"><a href="/blog">Blog</a></li>
+      <li class="downloads"><a href="https://github.com/Caustic">My GitHub</a></li>
+      <li class="title">Links</li>
+      </nav>
+    </div><!-- end header -->
 
     <div class="wrapper">
-
       <section>
         <div id="title">
           <h1>Caustic's Codes</h1>
           <p>My Github Profile Page</p>
-          <hr>
         </div>
+        <hr>
         <div class="markdown-body">
           {{ content }}
         </div>
-        <hr>
-        <span class="credits right">GitHub Pages Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        <div id="footer">
+          <hr>
+          <span class="credits right">GitHub Pages Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
       </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>
