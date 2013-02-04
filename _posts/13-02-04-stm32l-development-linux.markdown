@@ -10,23 +10,21 @@ Today it appears that it has quite good linux toolchain support.  I was able to 
 
 * Fork/Clone the following repositories:
 
-    <pre><code>
-    git clone git://github.com/texane/stlink.git
-    git clone git://github.com/esden/summon-arm-toolchain.git
-    git clone git://github.com/libopencm3/libopencm3.git
-    </code></pre>
+<pre><code>git clone git://github.com/texane/stlink.git
+git clone git://github.com/esden/summon-arm-toolchain.git
+git clone git://github.com/libopencm3/libopencm3.git
+</code></pre>
 
 * Install them using their guides.
 * Plug in your STM32L Board.
 * Start the STLink local server from the stlink repository.
 * Run:
 
-    <pre><code>
-    $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
-    (gdb) tar ex :4242
-    (gdb) load
-    (gdb) c
-    </code></pre>
+<pre><code>$ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
+(gdb) tar ex :4242
+(gdb) load
+(gdb) c
+</code></pre>
 
 And thats it!  I've got my program up and running on my STM32L board with hardly any effor at all!
 
