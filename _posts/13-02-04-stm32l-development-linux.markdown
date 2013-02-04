@@ -20,6 +20,7 @@ Today it appears that it has quite good linux toolchain support.  I was able to 
 * Plug in your STM32L Board.
 * Start the STLink local server from the stlink repository.
 * Run:
+
     <pre><code>
     $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
     (gdb) tar ex :4242
