@@ -30,7 +30,7 @@ And thats it!  I've got my program up and running on my STM32L board with hardly
 
 ### Considerations and Sources:
 
-I did notice that instead of the stlink flashing program, another program called OpenOCD (heh) supported the STM32L as well.  I'm not sure if it's smoother than what I was able to do with the stlink program but its worth looking into.
+I did notice that instead of the stlink flashing program, another program called OpenOCD (heh) supports the STM32L as well.  I'm not sure if it's smoother than what I was able to do with the stlink program but its worth looking into.
 
 [STLink for Linux](github.com/texane/stlink)
 
