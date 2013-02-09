@@ -7,30 +7,22 @@ title: Using Linux with the STM32VL Discovery Board.
 So the board we're using in class is actually the [STM32VL](www.st.com/stm32-discovery) board instead of the one I made a post about earlier.  The setup is essentially the same but there are some key differences I'd like to expand upon.  Without further adieu, the guide.
 
 * Fork/Clone/Download the following repositories:
-
         git clone git://github.com/esden/summon-arm-toolchain.git
         git clone git://github.com/texane/stlink.git
         git clone git://github.com/libopencm3/libopencm3.git
-
 * Install them using their guides.
-    * [Summon Arm Toolchain (SAR)](https://github.com/Caustic/summon-arm-toolchain/blob/master/README.markdown)
-    * [STLink](https://github.com/Caustic/stlink/blob/master/README.markdown)
-    * [LibopenCM3](https://github.com/Caustic/libopencm3/blob/master/README)
+    - [Summon Arm Toolchain (SAR)](https://github.com/Caustic/summon-arm-toolchain/blob/master/README.markdown)
+    - [STLink](https://github.com/Caustic/stlink/blob/master/README.markdown)
+    - [LibopenCM3](https://github.com/Caustic/libopencm3/blob/master/README)
 * Setup linux to recognize boards.
-
-
         cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
         modprobe -r usb-storage && modprobe usb-storage
         cp $STLINK_INST_DIR/49-stlinkv1.rules /etc/udev/rules.d/
         udevadm control --reload-rules
-
 * Plug in your STM32L Board.
 * Start the STLink local server from the stlink repository.
-
-    <pre><code>$STLINK_INST_DIR/st-util</code></pre>
-
+        $STLINK_INST_DIR/st-util
 * Flash the rom and run the program!:
-
         $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
         (gdb) tar ex :4242
         (gdb) load
