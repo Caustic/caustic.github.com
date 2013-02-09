@@ -19,11 +19,10 @@ git clone git://github.com/libopencm3/libopencm3.git
     * [LibopenCM3](https://github.com/Caustic/libopencm3/blob/master/README)
 * Setup linux to recognize boards.
 
-<pre><code>cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
+    cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
     modprobe -r usb-storage && modprobe usb-storage
     cp $STLINK_INST_DIR/49-stlinkv1.rules /etc/udev/rules.d/
     udevadm control --reload-rules
-</code></pre>
 
 * Plug in your STM32L Board.
 * Start the STLink local server from the stlink repository.
@@ -32,11 +31,10 @@ git clone git://github.com/libopencm3/libopencm3.git
 
 * Flash the rom and run the program!:
 
-    <pre><code>$ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
+    $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
     (gdb) tar ex :4242
     (gdb) load
     (gdb) c
-    </code></pre>
 
 And thats it!  I've got my program up and running on my STM32VL board with hardly any effort at all!
 
