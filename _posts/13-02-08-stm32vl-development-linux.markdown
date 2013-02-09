@@ -20,10 +20,10 @@ git clone git://github.com/libopencm3/libopencm3.git
 * Setup linux to recognize boards.
 
 
-    cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
-    modprobe -r usb-storage && modprobe usb-storage
-    cp $STLINK_INST_DIR/49-stlinkv1.rules /etc/udev/rules.d/
-    udevadm control --reload-rules
+        cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
+        modprobe -r usb-storage && modprobe usb-storage
+        cp $STLINK_INST_DIR/49-stlinkv1.rules /etc/udev/rules.d/
+        udevadm control --reload-rules
 
 * Plug in your STM32L Board.
 * Start the STLink local server from the stlink repository.
