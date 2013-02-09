@@ -19,8 +19,7 @@ git clone git://github.com/libopencm3/libopencm3.git
     * [LibopenCM3](https://github.com/Caustic/libopencm3/blob/master/README)
 * Setup linux to recognize boards.
 
-<pre><code>
-    cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
+<pre><code>cp $STLINK_INST_DIR/stlink_v1.modprobe.conf /etc/modprobe.d/
     modprobe -r usb-storage && modprobe usb-storage
     cp $STLINK_INST_DIR/49-stlinkv1.rules /etc/udev/rules.d/
     udevadm control --reload-rules
