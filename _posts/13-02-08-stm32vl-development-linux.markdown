@@ -15,7 +15,9 @@ So the board we're using in class is actually the [STM32VL](www.st.com/stm32-dis
 * Install them using their guides.
 
     - [Summon Arm Toolchain (SAR)](https://github.com/Caustic/summon-arm-toolchain/blob/master/README.markdown)
+
     - [STLink](https://github.com/Caustic/stlink/blob/master/README.markdown)
+
     - [LibopenCM3](https://github.com/Caustic/libopencm3/blob/master/README)
 
 * Setup linux to recognize boards.
