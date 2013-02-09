@@ -8,10 +8,9 @@ So the board we're using in class is actually the [STM32VL](www.st.com/stm32-dis
 
 * Fork/Clone/Download the following repositories:
 
-<pre><code>git clone git://github.com/esden/summon-arm-toolchain.git
-git clone git://github.com/texane/stlink.git
-git clone git://github.com/libopencm3/libopencm3.git
-</code></pre>
+        git clone git://github.com/esden/summon-arm-toolchain.git
+        git clone git://github.com/texane/stlink.git
+        git clone git://github.com/libopencm3/libopencm3.git
 
 * Install them using their guides.
     * [Summon Arm Toolchain (SAR)](https://github.com/Caustic/summon-arm-toolchain/blob/master/README.markdown)
@@ -32,10 +31,10 @@ git clone git://github.com/libopencm3/libopencm3.git
 
 * Flash the rom and run the program!:
 
-    $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
-    (gdb) tar ex :4242
-    (gdb) load
-    (gdb) c
+        $ARM_TOOLS_BIN/arm-none-eabi-gdb program.elf
+        (gdb) tar ex :4242
+        (gdb) load
+        (gdb) c
 
 And thats it!  I've got my program up and running on my STM32VL board with hardly any effort at all!
 
