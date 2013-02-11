@@ -9,8 +9,8 @@ What I accomplished today:
 * Read about the TCP protocol and how it implements the Sliding Window Protocol.
 * Learned about CRC and other types of basic error detection/correction in Framing Protocols.
 * Worked on my Senior Project with the NetFPGA
-    - Finished installing Xilinx ISE updates and started playing around with the reference projects more.
-    - Familiarizing myself with the workflow of a NetFPGA project.
+    1. Finished installing Xilinx ISE updates and started playing around with the reference projects more.
+    1. Familiarizing myself with the workflow of a NetFPGA project.
 
 TODO:
 * Learn how to use Xilinx ISE with IP pack to generate bitfiles from verilog projects with the NetFPGA. -- Talk to Jake or Dr. Kredo on this
