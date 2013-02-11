@@ -11,6 +11,7 @@ What I accomplished today:
 * Worked on my Senior Project with the NetFPGA
 
     - Finished installing Xilinx ISE updates and started playing around with the reference projects more.
+
     - Familiarizing myself with the workflow of a NetFPGA project.
 
 TODO:
