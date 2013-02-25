@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing and Simulation using the NetFPGA and isim
+title: Testing and Simulation using the NetFPGA and ISim
 ---
 
 So I've been having trouble testing the NetFPGA because I don't have a full version of 
